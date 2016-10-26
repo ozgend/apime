@@ -1,0 +1,8 @@
+.vs/
+.git/
+bin/
+obj/
+
+*.xproj
+*.xproj.user
+*.sln
