@@ -1,0 +1,26 @@
+# Calculator - Sum List
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '{values:[1,2,3,4]}' "http://localhost:5000/CalculatorService/Sum"
+
+
+# Calculator - Sum Values
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '{value1:17, value2:25}' "http://localhost:5000/CalculatorService/Sum"
+
+
+# Calendar - GetAll
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '' "http://localhost:5000/CalendarService/GetAll"
+
+
+# Calendar - Create
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '{"event": {"Date": "2016-10-20","Title": "Sample event"},"person": {"Firstname": "Den","Lastname": "Olk"}}' "http://localhost:5000/CalendarService/Create"
+
+
+# Contact - Add
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '{"person": {"Firstname":"Den", "Lastname":"Olk"}}' "http://localhost:5000/ContactService/Add"
+
+
+# Contact - Add List
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '{"persons": [{"Firstname": "Den", "Lastname": "Olk"},{"Firstname": "Ozzy", "Lastname": "Wild"},{"Firstname": "Donald", "Lastname": "Duck"}]}' "http://localhost:5000/ContactService/Add"
+
+
+# External - Send
+curl -X POST -H "X-ApiKey: apikey4denolk" -H "Content-Type: application/json" -d '{"person": {"Firstname":"Den", "Lastname":"Olk"}}' "http://localhost:5000/ExternalService/Send"
