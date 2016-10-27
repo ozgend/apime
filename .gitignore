@@ -6,3 +6,4 @@ obj/
 *.xproj
 *.xproj.user
 *.sln
+.vscode/
