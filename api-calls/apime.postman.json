@@ -18,7 +18,7 @@
 	"requests": [
 		{
 			"id": "15d70e36-dd37-37ec-d176-2238069e0230",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/ExternalService/Send",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -38,7 +38,7 @@
 		},
 		{
 			"id": "2487db11-15cd-319a-6cc2-06374f448110",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/CalendarService/GetAll",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -58,7 +58,7 @@
 		},
 		{
 			"id": "3af58d34-b7e8-6568-b370-326c9ecea855",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/CalculatorService/Sum",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -78,7 +78,7 @@
 		},
 		{
 			"id": "3f6b2b7b-706b-6fb8-933b-dafa1a06c590",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/CalendarService/Create",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -98,7 +98,7 @@
 		},
 		{
 			"id": "4f73a524-4fe1-07d9-2c26-4a38a3d7b366",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/ContactService/Add",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -118,7 +118,7 @@
 		},
 		{
 			"id": "a0692097-9782-8f40-5ae7-4546c04fa27f",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/CalculatorService/Sum",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -138,7 +138,7 @@
 		},
 		{
 			"id": "ff44f610-d963-fdbd-f123-470473135eb2",
-			"headers": "X-ApiKey: apikey4denolk\nContent-Type: application/json\n",
+			"headers": "X-ApiKey: sampleapi\nContent-Type: application/json\n",
 			"url": "http://localhost:5000/ContactService/Add",
 			"preRequestScript": null,
 			"pathVariables": {},
