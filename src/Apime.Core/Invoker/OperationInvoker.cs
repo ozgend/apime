@@ -129,14 +129,6 @@ namespace Apime.Core.Invoker
 
         private object EncapsulateReturnValue(object value, string methodName)
         {
-            //var requireEncapsulation = IsSimpleType(value);
-            //if (requireEncapsulation)
-            //{
-            //    var key = string.Format("{0}Result", methodName);
-            //    return new Dictionary<string, object> { { key, value } };
-            //}
-            //return value;
-
             var key = string.Format("{0}Result", methodName);
             return new Dictionary<string, object> { { key, value } };
         }
