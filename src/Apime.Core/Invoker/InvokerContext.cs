@@ -29,15 +29,7 @@ namespace Apime.Core.Invoker
 
         public static InvokerContext Create(string binPath, string @class, string method, string serialized = null)
         {
-            var context = new InvokerContext
-            {
-                BinPath = binPath,
-                Type = @class,
-                Method = method,
-                Parameter = serialized != null ? JsonConvert.DeserializeObject<dynamic>(serialized) : null
-            };
-
-            context.ObjectInstance = ReflectionHelper.CreateComponentInstance(context);
+            var context = Create(binPath, null, @class, method, serialized);
             return context;
         }
 
