@@ -22,9 +22,9 @@ namespace Apime.Host.Middlewares
         {
             var moduleRequest = new DefaultModuleRequestContext(context);
 
-            //for testing, below directory should contain SampleApi output assemblies within a folder named same with X-ApiKey request header
-            var binPath = Path.Combine(AppContext.BaseDirectory, "plugins", moduleRequest.ApiKey);
-
+            // below directory should contain SampleApi output assemblies within a folder named same with X-ApiKey request header
+            var binPath = Path.Combine(Program.ApiPluginPath, moduleRequest.ApiKey);
+            
             var invokerContext = InvokerContext.Create(binPath, moduleRequest.Class, moduleRequest.Method, moduleRequest.SerializedContent);
             var invoker = OperationInvoker.Create();
 

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Apime.Host": {
+      "commandName": "Project",
+      "commandLineArgs": "5000 D:\\apime-plugins"
+    }
+  }
+}
