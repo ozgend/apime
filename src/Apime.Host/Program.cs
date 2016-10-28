@@ -25,8 +25,8 @@ namespace Apime.Host
             var hostUrls = new []
             {
                 string.Format("http://localhost:{0}", port),
-                string.Format("http://0.0.0.0:{0}", port),
-               // string.Format("http://127.0.0.1:{0}", port)
+                // string.Format("http://0.0.0.0:{0}", port),
+                // string.Format("http://127.0.0.1:{0}", port)
             };
 
             Console.WriteLine(" > api endpoint: {0}", string.Join(",", hostUrls));
